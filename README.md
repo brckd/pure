@@ -61,3 +61,23 @@ let inc func
   num b
   set a add a b
 ```
+
+## Types
+
+### Atomic
+
+- `ref`
+- `int`
+- `float`
+-  `str`
+-  `func`
+
+## Compound
+
+- `struct`
+- `union`
+
+## Monads
+
+- `optional`
+- `result`
