@@ -5,7 +5,7 @@
 A programming language with a pure syntax.
 
 > [!WARNING]  
-> This language is still WIP. The following sections are just a proposal.
+> This language is still WIP. The following sections are just a proposal and subject to change.
 
 ## Syntax
 
