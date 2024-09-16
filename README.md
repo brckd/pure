@@ -57,7 +57,7 @@ Type guards can be used to limit the types of a function's parameters. They can 
 let inc func
   param a
   param b
-  new num new ref a
-  new num b
+  num ref a
+  num b
   set a add a b
 ```
