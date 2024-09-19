@@ -44,9 +44,7 @@ let a 1
 
 Functions can be declared by creating an anonymous function and creating an alias for it.
 ```pure
-let inc func
-  param a
-  param b
+let inc fn a fn b
   set a add a b
 ```
 
@@ -54,9 +52,7 @@ let inc func
 
 Type guards can be used to limit the types of a function's parameters. They can be any function that has a specific type of parameter types. Usually, all possible parameter types are inferred.
 ```pure
-let inc func
-  param a
-  param b
+let inc fn a fn b
   num ref a
   num b
   set a add a b
@@ -68,9 +64,9 @@ let inc func
 
 - `ref`
 - `int`
-- `float`
+- `flt`
 -  `str`
--  `func`
+-  `fb`
 
 ## Compound
 
@@ -79,5 +75,5 @@ let inc func
 
 ## Monads
 
-- `optional`
-- `result`
+- `opt`
+- `res`
