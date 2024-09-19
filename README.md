@@ -28,7 +28,7 @@ str "Hello!"
 
 Variables make it possible to refer to a value and override it. They can only be accessed after the first assignment.
 ```pure
-set a 1
+set a int 1
 set a add a 1
 ```
 
@@ -37,7 +37,7 @@ set a add a 1
 Aliases make it possible to refer to a value, but not override it. Thus, they can only be set once. However, they can be accessed from anywhere.
 ```pure
 let b a
-let a 1
+let a int 1
 ```
 
 ## Functions
