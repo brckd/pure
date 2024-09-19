@@ -65,8 +65,8 @@ let inc fn a fn b
 - `ref`
 - `int`
 - `flt`
--  `str`
--  `fb`
+- `str`
+- `fn`
 
 ## Compound
 
